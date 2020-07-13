@@ -1,0 +1,18 @@
+.translation {
+  position: absolute;
+width: 160px;
+height: 55px;
+left: 202px;
+top: 484px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #A9A0A0;
+}
