@@ -4,10 +4,10 @@ import PropTypes from 'prop-types'
 
 
 
-const wordImage = (props) => {
+const WordImage = (word) => {
 
   return(
-    <div>{props.img}</div>
+    <p>{word.img}</p>
   );
 }
 
@@ -16,3 +16,5 @@ const wordImage = (props) => {
 wordImage.propTypes = {
   img: PropTypes.string.isRequired
 }
+
+export default WordImage
